@@ -40,7 +40,7 @@ int main(){
     createBoard(board);
     //displayBoard(board);
     int r = 0;
-    while(r < 9){//game play loop
+    while(r < 5){//game play loop
         getXPlayerChoice(board);
         displayBoard(board);
         getOPlayerChoice(board);
